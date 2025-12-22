@@ -45,7 +45,7 @@ Several baseline models were trained and evaluated using either tabular data or 
 
 ### Image Data Models
 | Model                                      | Notes                                            | Best Accuracy |
-|--------------------------------------------|--------------------------------------------------|---------------|
+|---------------------------------------------|--------------------------------------------------|---------------|
 | Logistic Regression on flattened pixels    | Very poor performance                            | -             |
 | SVM on raw pixels                          | Moderate performance                             | -             |
 | Convolutional Neural Network (CNN)         | Multiple conv layers, max pooling, dropout; trained for 15 epochs with minimal overfitting | **~78.1%**    |
